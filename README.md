@@ -4,13 +4,9 @@ Ill maybe add more sometime.
 
 Its cool because you can install this on a website temporarily even if its not yours, like google, and use it normally
 
-  _    _  ______          __    _______ ____      _    _  _____ ______   <br>
- | |  | |/ __ \ \        / /   |__   __/ __ \    | |  | |/ ____|  ____|  <br>
- | |__| | |  | \ \  /\  / /       | | | |  | |   | |  | | (___ | |__     <br>
- |  __  | |  | |\ \/  \/ /        | | | |  | |   | |  | |\___ \|  __|    <br>
- | |  | | |__| | \  /\  /         | | | |__| |   | |__| |____) | |____   <br>
- |_|  |_|\____/   \/  \/          |_|  \____/     \____/|_____/|______|  <br>
- 
+
+HOW TO USE:
+
  create(), remove(), and edit() each are their own functions from their own .js files. You have to install them seperately.
  
  create() takes four arguments. The first argument is the name of your name. You can pretty much ignore it, but the system cant handle a no-name arg for some reason.
