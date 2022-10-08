@@ -10,10 +10,10 @@ HOW TO USE:
 
  create(), remove(), and edit() each are their own functions from their own .js files. You have to install them seperately.
  
- create() takes four arguments. The first argument is the name of your name. You can pretty much ignore it, but the system cant handle a no-name arg for some reason.
- The second argument is type. You can set this to something like "p" or "div" or even "p id='myId'". It decides the type of element.
- The third is content. That decides that goes between <> and </>. So like the "text" in <>text</>
- The fourth is id. Just input the id of the element you can create.
+ create() takes three arguments.
+ The first argument is type. You can set this to something like "p" or "div" or even "p id='myId'". It decides the type of element.
+ The second is content. That decides that goes between <> and </>. So like the "text" in <>text</>
+ The third is id. Just input the id of the element you can create.
  
  remove() is a lot simpler. It takes 1 argument. Just the id of the element. So if you have a < p  id="removeMe" > < / p > and you run remove("removeMe") it will be removed.
  
