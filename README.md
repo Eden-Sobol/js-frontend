@@ -4,12 +4,12 @@ Ill maybe add more sometime.
 
 Its cool because you can install this on a website temporarily even if its not yours, like google, and use it normally
 
-  _    _  ______          __    _______ ____      _    _  _____ ______ 
- | |  | |/ __ \ \        / /   |__   __/ __ \    | |  | |/ ____|  ____|
- | |__| | |  | \ \  /\  / /       | | | |  | |   | |  | | (___ | |__   
- |  __  | |  | |\ \/  \/ /        | | | |  | |   | |  | |\___ \|  __|  
- | |  | | |__| | \  /\  /         | | | |__| |   | |__| |____) | |____ 
- |_|  |_|\____/   \/  \/          |_|  \____/     \____/|_____/|______|
+  _    _  ______          __    _______ ____      _    _  _____ ______   <br>
+ | |  | |/ __ \ \        / /   |__   __/ __ \    | |  | |/ ____|  ____|  <br>
+ | |__| | |  | \ \  /\  / /       | | | |  | |   | |  | | (___ | |__     <br>
+ |  __  | |  | |\ \/  \/ /        | | | |  | |   | |  | |\___ \|  __|    <br>
+ | |  | | |__| | \  /\  /         | | | |__| |   | |__| |____) | |____   <br>
+ |_|  |_|\____/   \/  \/          |_|  \____/     \____/|_____/|______|  <br>
  
  create(), remove(), and edit() each are their own functions from their own .js files. You have to install them seperately.
  
