@@ -32,3 +32,7 @@ HOW TO USE:
  <br>  
  
  edit("myId", "div id="newId"", "inner") --> < div  id="newId" >< / div > (you need to edit inner content manually)
+
+
+ALSO
+you can use document.getElementById('yourId').style.top = "something" to position it
