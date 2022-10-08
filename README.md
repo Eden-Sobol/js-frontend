@@ -14,7 +14,7 @@ HOW TO USE:
  The third is content. That decides that goes between <> and </>. So like the "text" in <>text</>
  The fourth is id. Just input the id of the element you can create.
  
- remove() is a lot simpler. It takes 1 argument. Just the id of the element. So if you have a <p id="removeMe"></p> and you run remove("removeMe") it will be removed.
+ remove() is a lot simpler. It takes 1 argument. Just the id of the element. So if you have a < p  id="removeMe" > < / p > and you run remove("removeMe") it will be removed.
  
  edit() takes three args. The first is id (so same as remove()).
  The second is newContent, and its the thing to edit to. The third is editType, and it HAS to be "inner" or "outer". "inner" changes the things inside the text, like the "text" in "<p>text</p>" and outer would change the <p>.
