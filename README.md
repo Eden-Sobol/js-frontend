@@ -27,6 +27,12 @@ Its cool because you can install this on a website temporarily even if its not y
  Examples for all:
  
  create("name", "p", "hi", "myId") --> < p  id="myId" >hi< / p >
+ <br>
+   
  remove("myId")
+ <br>
+   
  edit("myId", "hello", "outer") --> < p  id="myId" >hello< / p>
+ <br>  
+ 
  edit("myId", "div id="newId"", "inner") --> < div  id="newId" >< / div > (you need to edit inner content manually)
