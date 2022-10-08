@@ -23,7 +23,7 @@ HOW TO USE:
  
  Examples for all:
  
- create("name", "p", "hi", "myId") --> < p  id="myId" >hi< / p >
+ create("p", "hi", "myId") --> < p  id="myId" >hi< / p >
  <br>
    
  remove("myId")
