@@ -23,13 +23,16 @@ HOW TO USE:
  
  Examples for all:
  
- create("p", "hi", "myId") --> < p  id="myId" >hi< / p >
+ create:
+ jsf.c("p", "hi", "myId") --> < p  id="myId" >hi< / p >
  <br>
    
- remove("myId")
+ delete:
+ jsf.d("myId")
  <br>
    
- edit("myId", "hello", "outer") --> < p  id="myId" >hello< / p>
+ edit:
+ jsf.e("myId", "hello", "outer") --> < p  id="myId" >hello< / p>
  <br>  
  
  edit("myId", "div id="newId"", "inner") --> < div  id="newId" >< / div > (you need to edit inner content manually)
@@ -45,4 +48,4 @@ ALSO IMPORTANT!
 
 To acually use the commands on YOUR website you need to put them in a setTimout. I suggest 15ms. To do that, do setTimeout(function() {code here}, 15)
 
-or < script src="https://raw.githubusercontent.com/Eden-Sobol/js-frontend/main/main.js" ></ script>
+or copy <a href="javascript:void(0)" onclick="copy("test")>this</a>
