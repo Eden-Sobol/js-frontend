@@ -44,3 +44,5 @@ you can use document.getElementById('yourId').style.top = "something" to positio
 ALSO IMPORTANT!
 
 To acually use the commands on YOUR website you need to put them in a setTimout. I suggest 15ms. To do that, do setTimeout(function() {code here}, 15)
+
+or < script src="https://github.com/Eden-Sobol/js-frontend/blob/main/main.js"></ script>
