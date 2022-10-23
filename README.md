@@ -35,7 +35,13 @@ HOW TO USE:
  jsf.e("myId", "hello", "outer") --> < p  id="myId" >hello< / p>
  <br>  
  
- edit("myId", "div id="newId"", "inner") --> < div  id="newId" >< / div > (you need to edit inner content manually)
+ jsf.e("myId", "div id="newId"", "inner") --> < div  id="newId" >< / div > (you need to edit inner content manually)
+ 
+ jsf.r(100, 100, "red", "myId", 10, 30)
+ <br>
+
+jsf.t("red", 100, 100, "myId", "bottom", 10, 30)
+<br>
 
 
 ALSO
