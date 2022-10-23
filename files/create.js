@@ -1,1 +1,1 @@
-function create(type, content, id) {var name;name = document.createElement(type);name.innerHTML = content;name.id = id;name.style.position = "absolute";document.body.innerHTML += name.outerHTML}
+function create(type, content, id, left, top) {var name;name = document.createElement(type);name.innerHTML = content;name.id = id;name.style.position = "absolute";name.style.left=left;name.style.top=top;document.body.innerHTML += name.outerHTML}
