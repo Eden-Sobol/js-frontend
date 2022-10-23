@@ -1,1 +1,1 @@
-function remove(id) {element = document.getElementById(id);element.parentNode.removeChild(element)}
+let jsf={r:function(id){element=document.getElementById(id);element.parentNode.removeChild(element)}}
