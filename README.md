@@ -54,3 +54,6 @@ jsf.tr("red", 100, 100, "myId", "bottom", 10, 30)
 ALSO IMPORTANT!
 
 To acually use the commands on YOUR website you need to put them in a setTimout. To do that, do setTimeout(function() {code here}, 1)
+
+
+I know example.html IS an html file, but the only html code is a < script > tag that runs JavaScript, in fact, I didn't even include a < body > tag.
