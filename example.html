@@ -1,0 +1,21 @@
+<head>
+<script>
+let jsf={cr:function(type,content,id,left,top){var name;name=document.createElement(type);name.innerHTML=content;name.id=id;name.style.position="absolute";name.style.left=left;name.style.top=top;document.body.innerHTML+=name.outerHTML},ed:function(id,newContent,editType){if(editType=="inner"){document.getElementById(id).innerHTML=newContent}if(editType=="outer"){document.getElementById(id).outerHTML="<"+newContent+">"}},re:function(id){element=document.getElementById(id);element.parentNode.removeChild(element)},rc:function(width,height,color,id,left,top){var name;name=document.createElement("p");name.style.backgroundColor=color;name.style.width=width;name.style.height=height;name.id=id;name.style.position="absolute";name.style.left=left;name.style.top=top;document.body.innerHTML+=name.outerHTML},tr:function(width,height,color,id,side,left,top){;var name;name=document.createElement("p");name.id=id;name.color=color;name.style.position="absolute";name.style.width="0";name.style.height = "0";name.style.left = left;name.style.top = top;tHeight = height / 2;tWidth = width;tColor = color;if(side=="bottom"){name.style.borderLeft=tHeight+"px solid transparent";name.style.borderRight=tHeight+"px solid transparent";name.style.borderBottom=tWidth+"px solid "+tColor;document.body.innerHTML+=name.outerHTML}if(side=="top"){name.style.borderLeft=tHeight+"px solid transparent";name.style.borderRight=tHeight+"px solid transparent";name.style.borderTop=tWidth+"px solid "+tColor;document.body.innerHTML+=name.outerHTML}if(side=="left"){name.style.borderLeft=tWidth+"px solid "+tColor;name.style.borderTop=tHeight+"px solid transparent";name.style.borderBottom=tHeight+"px solid transparent";document.body.innerHTML+=name.outerHTML}if(side=="right"){;name.style.borderRight=tWidth+"px solid "+tColor;name.style.borderTop=tHeight+"px solid transparent";name.style.borderBottom=tHeight+"px solid transparent";document.body.innerHTML+=name.outerHTML}},ci:function(width,height,color,id,left,top){var name;name=document.createElement("p");name.style.backgroundColor=color;name.style.width=width;name.style.height=height;name.id=id;name.style.position="absolute";name.style.left=left;name.style.top=top;name.style.borderRadius="50%";document.body.innerHTML+=name.outerHTML}};console.log("JSF loaded\nUse it at https://github.com/Eden-Sobol/js-frontend\n(Main.js loads all of it)")
+
+setTimeout(function() {
+	jsf.cr("p", "test", "id", 0, 0)
+	jsf.cr("a", "", "link", 8, 8)
+	jsf.ed("link", "a id=\"link\" href=\"http://edsb.me\"", "outer")
+	jsf.ed("link", "my website", "inner")
+	jsf.cr("img", "", "img", 100, 100)
+	jsf.ed("img", "img src=\"c:/me.png\" id=\"img\" style=\"position: absolute; left: 100px; top: 100px;\"", "outer")
+	
+	jsf.ci(100, 50, "red", "circle", 200, 100)
+	jsf.rc(100, 100, "blue", "rectangle", 100, 200)
+	jsf.tr(100, 100, "yellow", "tr1", "left", 300, 300)
+	jsf.tr(100, 100, "red", "tr2", "top", 400, 300)
+	jsf.tr(100, 100, "blue", "tr3", "bottom", 300, 400)
+	jsf.tr(100, 100, "green", "tr4", "right", 400, 400)
+}, 1)
+</script>
+</head>
