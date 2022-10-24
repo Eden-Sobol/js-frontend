@@ -1,7 +1,6 @@
 # js-frontend
-Some utilities to help make Javascripting a frontend website easier
+Some utilities to make JavaScript frontent easier (if you're out of your mind enought to try this anyway)
 
-Ill maybe add more sometime.
 
 Its cool because you can install this on a website temporarily even if its not yours, like google, and use it normally
 
