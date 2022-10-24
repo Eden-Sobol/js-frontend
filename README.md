@@ -24,23 +24,23 @@ HOW TO USE:
  Examples for all:
  
  create:
- jsf.c("p", "hi", "myId") --> < p  id="myId" >hi< / p >
+ jsf.cr("p", "hi", "myId") --> < p  id="myId" >hi< / p >
  <br>
    
- delete:
- jsf.d("myId")
+ remove:
+ jsf.re("myId")
  <br>
    
  edit:
- jsf.e("myId", "hello", "outer") --> < p  id="myId" >hello< / p>
+ jsf.ed("myId", "hello", "outer") --> < p  id="myId" >hello< / p>
  <br>  
  
- jsf.e("myId", "div id="newId"", "inner") --> < div  id="newId" >< / div > (you need to edit inner content manually)
+ jsf.ed("myId", "div id="newId"", "inner") --> < div  id="newId" >< / div > (you need to edit inner content manually)
  
- jsf.r(100, 100, "red", "myId", 10, 30)
+ jsf.rc(100, 100, "red", "myId", 10, 30)
  <br>
 
-jsf.t("red", 100, 100, "myId", "bottom", 10, 30)
+jsf.tr("red", 100, 100, "myId", "bottom", 10, 30)
 <br>
 
 
