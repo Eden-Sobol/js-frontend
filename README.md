@@ -23,7 +23,9 @@ HOW TO USE:
  
  jsf.rc() (rectangle) takes 4 args. Arg 1 is width, 2 is height, self explanatory. Arg 3 is color. arg 4 is id.
  
- jsf,tr (triangle) takes 5 args. Args 1 is width, 2 is height, 3 is color, 4 is id again. But 5 decides what rotation the triangle is on. You can pick "bottom", "top", "left" or "right" that decides where the bottom side of the triangle faces.
+ jsf.tr (triangle) takes 5 args. Args 1 is width, 2 is height, 3 is color, 4 is id again. But 5 decides what rotation the triangle is on. You can pick "bottom", "top", "left" or "right" that decides where the bottom side of the triangle faces.
+ 
+ jsf.ci() (circle) is the exact same as jsf.rc(), but round
  
  FOR ALL FUNCTIONS THAT CREATE A NEW ELEMENT (cr, re, tr): its the args + two other args (left and top), and those set where the element is.
  
