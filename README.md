@@ -3,6 +3,9 @@ Some utilities to make JavaScript frontent easier (if you're out of your mind en
 
 to use:
 <script src="http://lib.edensobol.com/js-frontend/main.js"></script>
+or
+download main.js, put it on your site and
+<script src="/main.js"></script>
 
 
 Its cool because you can install this on a website temporarily even if its not yours, like google, and use it normally
