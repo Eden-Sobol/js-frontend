@@ -1,6 +1,9 @@
 # js-frontend
 Some utilities to make JavaScript frontent easier (if you're out of your mind enought to try this anyway)
 
+to use:
+<xmp><script src="http://lib.edensobol.com/js-frontend/main.js"></script></xmp>
+
 
 Its cool because you can install this on a website temporarily even if its not yours, like google, and use it normally
 
