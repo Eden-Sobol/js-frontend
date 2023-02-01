@@ -13,12 +13,7 @@ download main.js, put it on your site and
 <script src="/main.js"></script>
 
 
-Its cool because you can install this on a website temporarily even if its not yours, like google, and use it normally
-
-
 HOW TO USE:
-
-
  
  fbui.cr() (create) takes three arguments.
  The first argument is type. You can set this to something like "p" or "div" or even "p id='myId'". It decides the type of element.
