@@ -1,6 +1,7 @@
-# FBUI
+# FBGUI
 Function
 Based
+Graphical
 User
 Interface
 
