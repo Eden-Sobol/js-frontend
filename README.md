@@ -7,6 +7,8 @@ Interface
 
 Some utilities to make JavaScript frontent easier (if you're out of your mind enought to try this anyway)
 
+FBGUI IS DISCONTINUED AND WILL NOT BE UPDATED. IF YOU WANT A FRONTEND JS LIBRARY USE https://github.com/eden-sobol/obgui
+
 to use:
 <script src="http://lib.edensobol.com/fbui/main.js"></script>
 or
